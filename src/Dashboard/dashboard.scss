@@ -1,0 +1,45 @@
+.dashboard_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 1.3rem 1.5rem;
+    gap:1rem;
+    width: 100%;
+}
+.chart_container{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    
+.chart_header{
+    border-bottom: 0.5px solid #F2F2F2;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    .select_box_container{
+        >div{
+            margin-right: 10px;
+        }
+    }
+}
+}
+.in_out_container{
+    display: flex;
+    gap:5px;
+}
+.watchlist_table{
+    width: 100%;
+    padding: 0.8rem;
+    th{
+        color:#D6D8DA;
+        text-align: left;
+        padding-bottom: 0.8rem;
+    }
+    th:nth-child(1){
+        width: 55%;
+    }
+    tbody{
+        td{
+            padding-bottom: 0.8rem;
+        }
+    }
+}

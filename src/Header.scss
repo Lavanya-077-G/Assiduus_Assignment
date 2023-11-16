@@ -1,0 +1,22 @@
+.header_Container{
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    height: 1.8rem;
+    .Logo{
+        width: 9%;
+    }
+    .leftPanel{
+        display: flex;
+        gap: 0.7rem;
+        img{
+            width:6%;
+            border-radius: 50%;
+        }
+    }
+}
+.userDropdown{
+    .ant-select-selector{
+        border: 0px !important;
+    }
+}

@@ -10,7 +10,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 const Header = () => {
   const { setGraphdata, graphData } = useContext(GraphContext);
 
-  // Memoize icons
+
   const SearchIcon = <RiSearchLine className="search-icon" />;
   const BellIcon = <BsFillBellFill style={{ fontSize: '1.1rem', paddingTop: '0.3rem' }} />;
   const CircleIcon = <MdCircle style={{
@@ -26,7 +26,7 @@ const Header = () => {
   const UserImage = <img src="https://cdn-wordpress-info.futurelearn.com/wp-content/uploads/Coding_Blog_Header_1500x750-606x303.jpg.webp" alt="user" />;
   const ArrowDownIcon = <IoMdArrowDropdown style={{ color: 'Black', fontSize: '1rem' }} />;
 
-  // Randomize data without modifying the original object
+
   const randomizeData = (data) => {
     return {
       checkingAccount: data.checkingAccount.map(() => Math.floor(Math.random() * (100 - 1 + 1)) + 1),
